@@ -13,7 +13,7 @@ config :logger, level: :warn
 config :deploy_phoenix, DeployPhoenix.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "",
   database: "deploy_phoenix_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
