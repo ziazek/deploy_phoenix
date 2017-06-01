@@ -40,8 +40,8 @@ end
 
 release :deploy_phoenix do
   set version: current_version(:deploy_phoenix)
-  set applications: [
-    :runtime_tools
-  ]
+  # set applications: [
+  #   :runtime_tools
+  # ]
 end
 
