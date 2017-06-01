@@ -1,4 +1,4 @@
-APP="deployphoenix"
+APP="deploy_phoenix"
 
 BUILD_HOST="188.166.182.170"
 BUILD_USER="deploy"
