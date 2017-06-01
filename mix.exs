@@ -3,7 +3,7 @@ defmodule DeployPhoenix.Mixfile do
 
   def project do
     [app: :deploy_phoenix,
-     version: "0.0.2",
+     version: "0.1.0",
      elixir: "~> 1.2",
      elixirc_paths: elixirc_paths(Mix.env),
      compilers: [:phoenix, :gettext] ++ Mix.compilers,
