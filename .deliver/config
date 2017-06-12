@@ -1,6 +1,6 @@
 APP="deploy_phoenix"
 
-BUILD_HOST="188.166.182.170"
+BUILD_HOST="139.59.242.72"
 BUILD_USER="deploy"
 BUILD_AT="/tmp/edeliver/$APP/builds"
 
@@ -9,11 +9,11 @@ RELEASE_DIR="/tmp/edeliver/$APP/builds/_build/prod/rel/$APP"
 # prevent re-installing node modules; this defaults to "."
 GIT_CLEAN_PATHS="_build rel priv/static"
 
-# STAGING_HOSTS="188.166.182.170"
+# STAGING_HOSTS="139.59.242.72"
 # STAGING_USER="deploy"
 # TEST_AT="/home/deploy/staging"
 
-PRODUCTION_HOSTS="188.166.182.170"
+PRODUCTION_HOSTS="139.59.242.72"
 PRODUCTION_USER="deploy"
 DELIVER_TO="/home/deploy"
 
