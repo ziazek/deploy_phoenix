@@ -24,3 +24,4 @@ erl_crash.dump
 /config/prod.secret.exs
 .deliver/releases/
 deploy_phoenix_prod_backup.rb
+letsencrypt-backup.gpg
