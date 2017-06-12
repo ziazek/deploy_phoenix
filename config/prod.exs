@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :deploy_phoenix, DeployPhoenix.Endpoint,
   http: [port: 8888],
-  url: [host: "deployphoenix.themestage.com", port: 80],
+  url: [host: "deployphoenix.themestage.com", port: 443, scheme: "https"],
   cache_static_manifest: "priv/static/manifest.json"
 
 # Do not print debug messages in production
